@@ -19,6 +19,8 @@ tomcat:
   version: 8.0.+
   repository_root: "{default.repository.root}/tomcat"
 lifecycle_support:
+  version: 7.0.+
+  repository_root: "https://dl.dropboxusercontent.com/u/12730593/apache-tomcat-7.0.57-with-solr-4.10.2-pack.tar.gz"
   version: 2.+
   repository_root: "{default.repository.root}/tomcat-lifecycle-support"
 logging_support:
